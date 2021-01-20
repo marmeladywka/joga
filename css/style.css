@@ -1,0 +1,1364 @@
+/*обнуление*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*шрифты*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot');
+  src: local('☺'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: local('☺'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*body*/
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+/*container*/
+.container {
+  width: 100%;
+  max-width: 1198px; /*максимальная ширина может иметь другое значение*/
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+.header__fond{
+
+  background: url(../images/header/Image.png) 0 0/ cover no-repeat ;
+  height:100vh;
+  background-position: center center;
+
+}
+
+.header__item{
+  display: flex;
+
+}
+
+.header__item-icon{
+
+  padding-top: 35px;
+  padding-left: 56px;
+}
+
+.header__star{
+  width: 100%;
+}
+
+.header__menu{
+  display:flex;
+ 
+  padding-top: 59px;
+  position:absolute;
+  right: 37px;
+  
+}
+
+.header__link{
+  margin-left: 28px;
+}
+
+.header__menu-list{
+  color: #99aade;
+  font-family: Poppins,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+
+.header__menu-list:hover{
+  color: #7492ec;
+}
+
+
+
+.header__menu-list.active{
+  color:#7693ec;
+
+}
+
+.header__mobile-link.active{
+   color:#7693ec;
+}
+
+.header__mobile-link:hover{
+   color: #7492ec;
+}
+
+.header__mobile-foto{
+  display: none;
+}
+
+.header__list{
+  display: none;
+  margin-top: 29px;
+  position:absolute;
+  right: 37px;
+  background-color: #a8b7e4;
+  padding: 0 24px;
+}
+
+.header__sub-mobile-list{
+ 
+  margin-bottom: 15px;
+  border-bottom: 1px solid white ;
+
+}
+
+.header__mibile-img{
+  margin-top: 29px;
+  position:absolute;
+  right: 37px;
+} 
+
+.header__mobile-href:hover .header__list{
+  display:block;
+}
+
+.header__mobile-link{
+   font-size: 34px;
+   color: white;
+   
+  }
+
+
+.header__content-slogan{
+  margin-top: 14%;
+  position: absolute;
+  right: 20%;
+
+}
+
+.header__slogan-two{
+  text-indent:26px;
+}
+
+
+.header__slogan-three{
+  text-indent:52px;
+}
+
+.header__slogan{
+  opacity: 0.8;
+  color: #4c77eb;
+  font-family: Poppins,sans-serif;
+  font-size:50px;
+  font-weight: 300;
+  line-height: 70px;
+}
+
+/*about*/
+
+.section-about{
+  background: url(../images/about/Vector.png) ;  
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: 770px 715px;
+
+}
+
+.about__video{
+  margin-bottom: 88px;
+
+}
+
+.about{
+  display:flex;
+  justify-content:space-between;
+}
+
+.about__item-one{
+  margin-top: 98px;
+  width: 45%;
+}
+
+.about__title{
+  color: #7492ec;
+  font-family: Poppins,sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.about__text{
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 40px;
+  }
+
+.about__video-joga{
+  width:100%;
+  height: 350px;;
+
+}
+
+.about__item-two{
+  margin-top:10px;
+  width: 45%;
+  
+}
+
+.about__block{
+  display:flex;
+  margin-bottom:50px;
+}
+
+.about__info{
+  margin-left: 25px;
+}
+
+.about__name{
+  color: #000000;
+  font-family: Poppins,sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom:18px;
+}
+
+.about__reason{
+  max-width: 372px;
+}
+
+/*classes*/
+
+.section-classes{
+  display: flex;
+  background: url(../images/classes/BG.png);
+  background-size: cover;
+
+
+}
+
+.classes{
+  padding-bottom: 50px;
+}
+
+.classes__image{
+  display:flex;
+  margin: 0 auto;
+  width: 10%;
+}
+
+.classes__title{
+  color: #7492ec;
+  font-family: Poppins;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.classes__info{
+  display:flex;
+  width: 100%;
+  justify-content:space-between;
+
+}
+
+.classes__item{
+  max-width:25%;
+  
+}
+
+.classes__foto-img{
+  width: 100%;
+}
+
+
+
+.classes_name{
+  margin-top: 29px;
+  color: #7492ec;
+  font-family: Poppins,sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 54px;
+}
+
+.classes__time-info,
+.classes__adress-info,
+.classes__advanced-info{
+
+  color: #999999;
+  font-size: 13px;
+  text-align: left;
+
+}
+
+.classes__paragraph-time,
+.classes__paragraph-adress,
+.classes__paragraph-advanced{
+  display: flex;
+  margin-bottom: 17px;
+}
+
+.classes__time-icon,
+.classes__adress-icon,
+.classes__advenced-icon{
+  margin-right: 12px;
+
+}
+
+.classes__text{
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.classes__btn{
+  display: flex;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #7492ec;
+  margin: 0 auto;
+
+  
+}
+
+.classes__link{
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+ padding: 10px 40px;
+
+
+}
+
+.classes__btn:hover{
+  box-shadow: 5px -10px 3px #b4c4f5;
+}
+
+/*more*/
+
+.more{
+  padding-bottom:80px;
+}
+
+.more__title{
+  margin-top:80px;
+  margin-bottom: 25px;
+  text-align:center;
+  color: #000000;
+  font-family: Poppins,sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.more__info{
+  color: #666666;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.more__card{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:30px;
+
+}
+
+.more__image{
+  width: 100%
+}
+
+/*blue*/
+
+
+.blue{
+  background: url(../images/blue/Imgae_BG.png) 0 0/cover no-repeat;
+   background-position: center center;
+  
+}
+
+.blue__title{
+  padding-top:100px;
+  margin-bottom: 35px;
+  text-align:center;
+  color: #ffffff;
+  font-family: Poppins,sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.blue__text{
+  color: #ffffff;
+  line-height: 24px;
+  text-align: center;
+  max-width:542px;
+  margin: 0 auto;
+}
+
+.blue__info{
+  text-align:center;
+  margin-top:50px;
+  margin-bottom:10px ;
+  color: #ffffff;
+  font-family: Poppins,sans-serif;
+}
+
+.blue__icon{
+  text-align:center;
+  padding-bottom: 90px;
+}
+
+.blue__arrow{
+  margin-left: -30px;
+  margin-top:15px;
+  z-index: 1;
+}
+
+/*teacher*/
+
+.teacher{
+  padding: 108px 0;
+}
+
+.teacher__item{
+  display: flex;
+  margin-bottom: 57px;
+  justify-content: space-between;
+
+
+}
+
+.teacher__item:last-child{
+  margin-bottom: 0px;
+}
+
+.teacher__about{
+  display: flex;
+  width:25%;
+}
+
+.teacher__info{
+  margin-left: 18px;
+  margin-top: 20px;
+
+  
+}
+
+.teacher__image{
+  width: 100%;
+}
+
+.teacher__name{
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  font-weight: 600;
+}
+
+.teacher__profesion{
+  color: #999999;
+  text-align: left;
+  margin-top: 12px;
+}
+
+/*challenge*/
+
+.section__challenge{
+  background-color: #f8f7fc;
+}
+
+.challenge{
+  display: flex;
+}
+
+.challenge__about{
+  margin: 0 auto;
+  padding-top: 250px;
+  padding-bottom: 200px;
+  width: 475px;
+  
+}
+
+.challenge__title{
+  color: #7492ec;
+  font-family: Poppins,sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.challenge__text{
+  color: #8ea2dc;
+  font-size: 21px;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.challenge__btn{
+  width: 213px;
+  height: 40px;
+  background-color: #7492ec;
+  border-radius:40px;
+}
+
+.challenge__btn:hover{
+  box-shadow: 10px -5px 5px #a8b7e4;
+}
+
+.challenge__link{
+  color: #ffffff;
+  font-family: Poppins,sans-serif;
+  font-size: 12px;
+}
+
+.challenge__foto{
+  margin-top:-69px;
+   margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*logo*/
+
+.logo__info{
+  display: flex;
+  justify-content:space-between;
+  padding: 86px 0;
+}
+
+/*footer*/
+
+.footer__part-one{
+  background-color: #181818;
+}
+
+.footer__part{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__icon{
+  padding-top: 22px;
+  padding-bottom: 18px;
+  padding-right: 205px;
+}
+
+.footer__image{
+  width: 100%;
+}
+
+.footer__info{
+  border-left:1px solid #333333;
+  height: 110px;
+  padding-top: 34px;
+  padding-bottom: 26px;
+  padding-left: 48px;
+}
+
+.footer__title{
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  margin-bottom:15px;
+}
+
+.footer__text{
+  color: #bbbbbb;
+  font-size: 13px;
+  text-align: left;
+}
+
+.footer__form{
+  
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin-left: auto;
+}
+
+.footer__input-email{
+  background-color: #333333;
+  height: 50px;
+  width: 355px;
+  border-radius: 30px;
+  padding-left: 19px;
+  color: #bbbbbb;
+  font-family: Lato;
+  font-size: 13px;
+}
+
+.footer__submit{
+  margin-left: -90px;
+
+
+}
+
+.footer__input-submit{
+  background-color: #7492ec;
+  border-radius: 30px;
+  width: 140px;
+  height: 50px;
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+
+}
+
+.footer__part-two{
+  background-color: #222222;
+}
+
+.footer__contact{
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  margin-bottom: 24px;
+  margin-top: 55px;
+}
+
+.footer__contact-info{
+  color: #bbbbbb;
+  font-size: 13px;
+  margin-bottom: 22px;
+ }
+
+.footer__social-icon{
+  display: flex;
+  max-width: 181px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer__useful{
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  margin-bottom: 25px;
+  margin-top: 55px;
+}
+
+.footer__list{
+  color: #bbbbbb;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.footer__contact-info{
+  line-height: 24px;
+}
+
+.footer__open{
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  margin-bottom:21px;
+  margin-top: 55px;
+}
+
+.footer__info-work{
+  display: flex;
+  width: 150%;
+  justify-content: space-between;
+}
+
+.footer__sign{
+  margin-top: 10px;
+}
+
+.footer__week{
+  color: #bbbbbb;
+  font-family: "Myriad Pro";
+  font-size: 13px;
+  line-height: 30px;
+
+}
+
+.footer__time{
+  color: #bbbbbb;
+  font-family: "Myriad Pro";
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.footer__location{
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  margin-bottom: 27px;
+  margin-top: 55px;
+
+}
+
+.footer__maps-adress{
+ max-width: 270px;
+ width: 100%;
+ height: 170px;
+}
+
+.footer__part-three{
+  background-color: #181818;
+}
+
+.footer__name{
+  color: #ffffff;
+  font-family: Poppins,sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+.footer__menu{
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 30px;
+  max-width: 399px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+
+
+/*медиа запросы*/
+
+@media screen and (max-width: 1230px){
+  /*teacher*/
+
+  .teacher {
+    padding: 80px 0;
+}
+}
+
+@media screen and (max-width: 990px){
+  
+  /*header*/
+
+  .header__content-slogan {
+    margin-top: 40%;
+    position: absolute;
+    right: 10%;
+  }
+
+  /*about*/
+
+  .about__image{
+    width: 90%;
+  }
+
+  .about__video-joga{
+    height:300px;
+  }
+
+  .about__video {
+    margin-bottom:50px;
+  }
+
+  /*classes*/
+
+  .classes__title {
+    margin-bottom: 40px;
+}
+
+.classes__text {
+    margin-bottom: 30px;
+}
+
+.classes__btn {
+    width: 150px;
+    height: 40px;
+    
+}
+
+.classes__link {
+    font-size: 15px;
+    padding: 7px 27px;
+}
+
+/*more*/
+
+.more__title {
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .more__info {
+    margin-bottom: 15px;
+  }
+
+  .more {
+    padding-bottom: 30px;
+}
+
+/*challenge*/
+
+.challenge__title{
+  font-size: 40px;
+    
+}
+
+.challenge__text {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.challenge__btn {
+    width: 180px;
+    height: 35px;
+}
+
+/*logo*/
+
+.logo__info {
+  padding: 56px 0;
+}
+
+/*footer*/
+
+.footer__input-email{
+  height: 40px;
+  width: 300px;
+  }
+
+  .footer__input-submit {
+  width: 120px;
+  height: 40px;
+}
+
+.footer__icon {
+  padding-right: 120px;
+}
+
+.footer__info {
+  padding-left: 38px;
+}
+
+.footer__title {
+  margin-bottom: 5px;
+}
+
+.footer__maps-adress {
+    max-width: 190px;
+    }
+
+.footer__info-work {
+  width: 120%;
+}
+
+
+}
+
+
+@media screen and (max-width: 770px){
+  /*header*/
+
+  .header__item-icon {
+    padding-top: 15px;
+    padding-left: 26px;
+  }
+
+  .header__star {
+    width: 60%;
+  }
+
+  .header__content-slogan {
+    margin-top: 40%;
+    position: absolute;
+    right: 5%;
+  }
+
+  /*about*/
+
+  .about__item-one {
+    margin-top:60px;
+  }
+
+  .about__info {
+    margin-left:15px;
+}
+
+.about__name{
+  margin-bottom: 10px;
+}
+
+.about__block {
+    margin-bottom: 30px;
+}
+
+.about__text {
+    margin-bottom: 20px;
+}
+
+.about__video-joga{
+  height: 200px;
+}
+
+/*classes*/
+.classes__title {
+    margin-bottom: 20px;
+}
+
+.classes_name {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.classes__text {
+    margin-bottom: 20px;
+}
+
+.classes__btn {
+    width: 120px;
+    height: 31px;
+}
+
+.classes__link {
+    font-size: 15px;
+    padding: 6px 17px;
+}
+
+.classes {
+    padding-bottom: 30px;
+}
+
+/*more*/
+
+.more {
+  padding-bottom: 15px;
+}
+
+.more__title {
+  margin-top: 30px;
+  font-size: 28px;
+    }
+
+/*blue*/
+
+.blue__title {
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.blue__info {
+  margin-top: 30px;
+    }
+
+ /*teacher*/
+
+.teacher {
+  padding-top:50px;
+  }
+
+.teacher__about {
+  width: 23%;
+}
+
+/*challenge*/
+
+.challenge__title {
+  font-size: 30px;
+    
+}
+
+.challenge__text {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.challenge__btn {
+  width: 140px;
+  height: 30px;
+}
+
+/*logo*/
+
+.logo__info {
+  padding: 36px 0;
+}
+
+/*footer*/
+
+.footer__input-email {
+  height: 30px;
+  width: 200px;
+  font-size: 8px;
+}
+
+.footer__input-submit {
+    width: 80px;
+    height: 30px;
+}
+
+.footer__icon {
+  padding-right: 70px;
+}
+
+.footer__maps-adress {
+    max-width: 150px;
+}
+
+.footer__maps-adress {
+    height: 160px;
+}
+
+.footer__info-work {
+    width: 100%;
+    font-size: 8px;
+    line-height: 20px;
+}
+
+.footer__list,.footer__contact-info,
+.footer__week,.footer__time {
+  font-size: 10px;
+  line-height: 20px;
+    
+}
+
+.footer__open,.footer__useful,
+.footer__location,.footer__contact {
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.footer__sign-img{
+  max-height: 70%;
+}
+
+.footer__sign {
+    margin-top: 5px;
+}
+
+.footer__image-face,
+.footer__image-twit,
+.footer__image-google,
+.footer__image-pinterest{
+ width:80%;
+}
+
+
+}
+
+@media screen and (max-width: 575px){
+  /*header*/
+
+  .header__star {
+    width: 40%;
+  }
+
+  .header__item-icon {
+    padding-top: 7px;
+    padding-left: 9px;
+}
+
+  .header__slogan {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .header__content-slogan {
+    margin-top: 60%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .header__menu{
+    display: none;
+  }
+
+  .header__mobile-foto{
+  display:block;
+}
+
+.header__mibile-img{
+  width: 10%;
+}
+
+
+/*about*/
+
+.about__item-two {  
+  width:100%;
+
+}
+
+.about__content{
+text-align: center;
+margin-top:10px;
+
+
+}
+
+.about__item-one {
+   
+    width:100%;
+}
+
+.about {
+    display: block;
+    
+}
+
+.about__text{
+  text-align: center;
+}
+
+.about__title{
+  text-align: center;
+  font-size: 38px;
+  }
+
+  .about__video-joga{
+    height:350px;
+  }
+
+  .about__video {
+    margin-bottom: 30px;
+}
+
+/*classes*/
+
+.classes__item {
+    max-width: 23%;
+}
+
+.classes__paragraph{
+  display: none;
+}
+
+/*more*/
+
+.more__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.more__info {
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.more {
+    padding-bottom:0px;
+}
+
+/*blue*/
+
+.blue__title {    
+margin-bottom: 15px;
+font-size: 20px;
+   
+}
+
+.blue__info {
+  margin-top: 15px;
+    }
+
+.teacher__about {
+  width: 18%;
+  display: block;
+}
+
+/*challenge*/
+
+.challenge__title {
+  font-size: 20px;
+}
+
+.challenge__text {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.challenge__link {
+  font-size: 8px;
+}
+
+.challenge__btn {
+  width: 110px;
+  height: 23px;
+}
+
+/*logo*/
+
+.logo__image{
+  width: 50%;
+}
+
+/*footer*/
+
+.footer__icon {
+    padding-right: 20px;
+}
+
+.footer__info {
+    padding-left: 23px;
+}
+
+.footer__text {
+  font-size: 10px;
+    
+}
+
+.footer__input-email {
+    width: 150px;
+    
+}
+
+.footer__submit {
+    margin-left: -50px;
+}
+
+.footer__input-submit {
+    width: 60px;
+    font-size: 6px;
+  }
+
+  .footer__maps-adress {
+    height: 120px;
+    max-width: 120px;
+}
+
+.footer__open,.footer__useful,
+.footer__location,.footer__contact{
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+
+.footer__list,.footer__contact-info,
+.footer__week,.footer__time{
+  font-size:7px;
+  line-height: 16px;
+    
+}
+
+.footer__form{
+  margin-top: 10px;
+}
+
+.footer__image-face,
+.footer__image-twit,
+.footer__image-google,
+.footer__image-pinterest{
+  width:60%;
+}
+
+.footer__social-icon{
+  margin-bottom: 20px;
+  max-width: 90px;
+}
+
+.footer__sign-img{
+  max-height: 53%;
+}
+
+.footer__sign {
+    margin-top: 5px;
+}
+
+.footer__item{
+  margin-bottom: 0px;
+}
+
+}
