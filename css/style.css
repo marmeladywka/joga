@@ -349,19 +349,20 @@ body{
 }
 
 .classes__info{
-  display:flex;
-  width: 100%;
-  justify-content:space-between;
+
 
 }
 
 .classes__item{
-  max-width:25%;
+ 
   
 }
 
-.classes__foto-img{
+.classes__foto{
   width: 100%;
+
+.classes__foto-img{
+  object-fit: cover;
 }
 
 
