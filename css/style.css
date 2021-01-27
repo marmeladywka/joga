@@ -1214,9 +1214,13 @@ margin-top:10px;
 }
 
 /*classes*/
+  
+ .classes__info {
+    display: block;
+}
 
 .classes__item {
-    max-width: 23%;
+    width: 100%;
 }
 
 .classes__paragraph{
