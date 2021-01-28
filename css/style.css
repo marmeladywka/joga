@@ -1149,12 +1149,12 @@ body{
 }
 
   .header__slogan {
-    font-size: 40px;
+    font-size: 250%;
     line-height: 50px;
   }
 
   .header__content-slogan {
-    margin-top: 60%;
+    margin-top: 40%;
     position: absolute;
     right: 10%;
   }
@@ -1231,6 +1231,8 @@ margin-top:10px;
 
 .classes__item {
     width: 100%;
+    padding-bottom: 5%;
+    display: flex;
 }
 
 .classes__paragraph{
@@ -1245,6 +1247,7 @@ margin-top:10px;
   width: 45%;
   align-items: center;
   display: flex;
+  text-align: center;
 }
   
 .classes__foto{
