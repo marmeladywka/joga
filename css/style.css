@@ -1164,7 +1164,8 @@ body{
   }
 
   .header__mobile-foto{
-  display:block;
+    display:block;
+    
 }
 
 .header__mibile-img{
@@ -1242,12 +1243,15 @@ margin-top:10px;
   
 .classes__text {
   width: 45%;
+  align-items: center;
+  display: flex;
 }
   
 .classes__foto{
   width: 50%;
   position: relative;
   max-height: 200px;
+  min-height: 150px;
   }
 
 /*more*/
