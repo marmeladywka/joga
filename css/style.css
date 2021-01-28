@@ -1215,6 +1215,15 @@ margin-top:10px;
 
 /*classes*/
   
+.classes__foto-img {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+  
  .classes__info {
     display: block;
 }
@@ -1226,6 +1235,20 @@ margin-top:10px;
 .classes__paragraph{
   display: none;
 }
+  
+.classes_name {
+  display: none;
+  }
+  
+.classes__text {
+  width: 45%;
+}
+  
+.classes__foto{
+  width: 50%;
+  position: relative;
+  max-height: 200px;
+  }
 
 /*more*/
 
