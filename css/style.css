@@ -1343,6 +1343,7 @@ margin-top:10px;
 
 .challenge__title {
   font-size: 20px;
+  font-weight: 700;
 }
 
 .challenge__text {
@@ -1350,6 +1351,7 @@ margin-top:10px;
   margin-top: 5px;
   margin-bottom: 10px;
   padding: 0 5%;
+  line-height: 18px;
 }
 
 .challenge__link {
@@ -1360,11 +1362,20 @@ margin-top:10px;
   width: 110px;
   height: 23px;
 }
+  
+.challenge__about {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
 
 /*logo*/
 
 .logo__image{
-  width: 50%;
+  width: 100%;
+}
+  
+.logo__foto{
+  width: 20%;
 }
 
 /*footer*/
