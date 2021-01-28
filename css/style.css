@@ -361,6 +361,11 @@ body{
 
 .classes__foto-img{
   width: 100%;
+  opacity: 0.5;
+}
+
+.classes__foto-img{
+  opacity: 1;
 }
 
 
@@ -1204,6 +1209,7 @@ margin-top:10px;
 .about__title{
   text-align: center;
   font-size: 38px;
+  margin-top: -10%;
   }
 
   .about__video-joga{
@@ -1223,6 +1229,7 @@ margin-top:10px;
   object-fit: cover;
   top: 0;
   left: 0;
+  opacity: 0.4;
 }
   
  .classes__info {
@@ -1233,6 +1240,7 @@ margin-top:10px;
     width: 100%;
     padding-bottom: 5%;
     display: flex;
+    justify-content: space-between;
 }
 
 .classes__paragraph{
@@ -1277,19 +1285,59 @@ margin-top:10px;
 /*blue*/
 
 .blue__title {    
-margin-bottom: 15px;
-font-size: 20px;
-   
+  margin-bottom: 15px;
+  font-size: 20px;
+  padding-top: 50px; 
 }
 
 .blue__info {
-  margin-top: 15px;
-    }
-
+   margin-top: 15px;
+   font-size: 20px;
+}
+  
+.blue__icon {
+  padding-bottom: 50px;
+}
+  
+.blue__text {
+    
+}
+  
+/*teacher*/
+  
 .teacher__about {
-  width: 18%;
+  width: 23%;
   display: block;
 }
+  
+.teacher__info {
+  margin-left: 0;
+  margin-top: 15%;
+}
+  
+.teacher__name {
+  font-size: 12px;
+  height: 35px;
+  text-align: center;
+  }
+  
+.teacher__profesion {
+  margin-top: 10%;
+  font-size: 10px;
+  text-align: center;
+}
+  
+.teacher__foto{
+  text-align: center;
+  }
+  
+.teacher__image {
+  width: 80%;
+}
+  
+.teacher__item {
+  margin-bottom: 10%;
+  }
 
 /*challenge*/
 
@@ -1301,6 +1349,7 @@ font-size: 20px;
   font-size: 14px;
   margin-top: 5px;
   margin-bottom: 10px;
+  padding: 0 5%;
 }
 
 .challenge__link {
