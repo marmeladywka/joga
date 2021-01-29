@@ -753,6 +753,8 @@ text-align: left;
 }
 
 @media screen and (max-width: 770px){
+  
+/*header*/
   .header__content-slogan {
     margin-top: 20%;
     
@@ -773,6 +775,8 @@ text-align: left;
     margin-top: 15%;
     padding-left:0;
     }
+  
+/* blue   */
 
   .blue__text{
     padding-top: 125px;
@@ -788,6 +792,8 @@ text-align: left;
   .classes__item {
     padding-bottom: 40px;
 }
+  
+/* rating   */
 
 .rating {
     padding-top: 80px;
@@ -797,6 +803,12 @@ text-align: left;
 .rating__statistic {
   padding-bottom: 70px;
 }
+  
+/* appeal   */
+  
+.appeal__btn {
+    width: 40%;
+  }
 
 .appeal {
   padding: 70px 0;
@@ -805,6 +817,10 @@ text-align: left;
 .appeal__text {
   margin-bottom: 30px;
 }
+  
+.appeal__link {
+  padding: 1% 2%;
+  }
 
 
   /*footer*/
@@ -1008,13 +1024,12 @@ text-align: left;
 }
 
 .appeal__btn {
-    max-width: 197px;
+    width: 40%;
     height: 30px;
 }
 
 .appeal__link {
-  font-size: 10px;
-  padding: 15px 18px;
+  font-size: 8px;
     
 }
 
