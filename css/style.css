@@ -974,7 +974,7 @@ body{
   }
 
   .header__content-slogan {
-    margin-top: 40%;
+    margin-top: 25%;
     position: absolute;
     right: 5%;
   }
@@ -1178,7 +1178,7 @@ body{
   }
 
   .header__content-slogan {
-    margin-top: 55%;
+    margin-top: 40%;
     position: absolute;
     right: 10%;
   }
@@ -1195,6 +1195,10 @@ body{
 .header__mibile-img{
   width: 10%;
 }
+  
+.header__mobile-link{
+  font-size: 20px;
+  }
 
 
 /*about*/
