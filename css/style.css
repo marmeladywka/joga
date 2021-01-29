@@ -364,7 +364,7 @@ body{
   opacity: 0.5;
 }
 
-.classes__foto-img{
+.classes__foto-img:hover{
   opacity: 1;
 }
 
