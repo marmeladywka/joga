@@ -1439,14 +1439,10 @@ margin-top:10px;
 
 .footer__list,.footer__contact-info,
 .footer__week,.footer__time{
-  font-size:7px;
+  font-size:6px;
   line-height: 16px;
     
 }
-  
-.footer__list{
-  width: 17%;
-  }
 
 .footer__form{
   margin-top: 10px;
