@@ -1159,7 +1159,7 @@ body{
   }
 
   .header__content-slogan {
-    margin-top: 40%;
+    margin-top: 55%;
     position: absolute;
     right: 10%;
   }
@@ -1350,9 +1350,12 @@ margin-top:10px;
   font-size: 14px;
   margin-top: 5px;
   margin-bottom: 10px;
-  padding: 0 5%;
   line-height: 18px;
 }
+  
+.challenge__link{
+  text-transform: uppercase;
+  }
 
 .challenge__link {
   font-size: 8px;
@@ -1367,11 +1370,17 @@ margin-top:10px;
   padding-top: 20%;
   padding-bottom: 20%;
 }
+  
+.challenge__image{
+  width: 100%;
+  }
+  
+
 
 /*logo*/
 
 .logo__image{
-  width: 100%;
+  width: 70%;
 }
   
 .logo__foto{
@@ -1379,6 +1388,10 @@ margin-top:10px;
 }
 
 /*footer*/
+  
+.footer__menu {
+  width: 50%;
+  }
 
 .footer__icon {
     padding-right: 20px;
@@ -1406,10 +1419,15 @@ margin-top:10px;
     width: 60px;
     font-size: 6px;
   }
+  
+.footer__maps{  
+  max-height: 100px;
+  }
+  
 
   .footer__maps-adress {
-    height: 120px;
-    max-width: 120px;
+    height: 100px;
+    
 }
 
 .footer__open,.footer__useful,
@@ -1425,6 +1443,10 @@ margin-top:10px;
   line-height: 16px;
     
 }
+  
+.footer__list{
+  width: 17%;
+  }
 
 .footer__form{
   margin-top: 10px;
@@ -1452,6 +1474,12 @@ margin-top:10px;
 
 .footer__item{
   margin-bottom: 0px;
+  width: 23%;
 }
+  
+.footer__name {
+  font-size: 10px;
+  width: 45%;
+}
+  
 
-}
