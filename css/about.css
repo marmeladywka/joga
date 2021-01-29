@@ -937,18 +937,36 @@ text-align: left;
 }
 
 /*classes*/
+  
+.classes {
+  display: block;
 
 .classes__title {
-    margin-top: 20px;
-    margin-bottom: 13px;
-    font-size: 16px;
+  display: none;
+}
+  
+.classes__foto{
+  width: 50%;
+  max-height: 100px;
+  position: relative;
+  }
+  
+.classes__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
 }
 
 .classes__text {
-    line-height: 18px;
+   line-height: 18px;
+   width: 45%;
 }
 
 .classes__item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   padding-bottom: 40px;
 }
 
