@@ -626,6 +626,16 @@ body{
   padding: 86px 0;
 }
 
+.logo__image {
+   height: 100%;
+   object-fit: contain;
+   width: 100%;
+}
+
+.logo__foto {
+  max-height: 100px;
+}
+
 /*footer*/
 
 .footer__part-one{
