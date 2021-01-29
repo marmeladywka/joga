@@ -1078,6 +1078,15 @@ body{
 .logo__info {
   padding: 36px 0;
 }
+  
+.logo__image {
+   height: 100%;
+   object-fit: contain;
+}
+  
+.logo__foto {
+   max-height: 100px;
+}
 
 /*footer*/
 
