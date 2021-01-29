@@ -822,7 +822,7 @@ text-align: left;
 
 .footer__list,.footer__contact-info,
 .footer__week,.footer__time {
-  font-size: 10px;
+  font-size: 8px;
   line-height: 20px;
     
 }
@@ -933,6 +933,10 @@ text-align: left;
   
   /*footer*/
 
+.footer__menu {
+  width: 50%;
+  }
+
 .footer__icon {
     padding-right: 20px;
 }
@@ -959,10 +963,15 @@ text-align: left;
     width: 60px;
     font-size: 6px;
   }
+  
+.footer__maps{  
+  max-height: 100px;
+  }
+  
 
   .footer__maps-adress {
-    height: 120px;
-    max-width: 120px;
+    height: 100px;
+    
 }
 
 .footer__open,.footer__useful,
@@ -974,7 +983,7 @@ text-align: left;
 
 .footer__list,.footer__contact-info,
 .footer__week,.footer__time{
-  font-size:7px;
+  font-size:6px;
   line-height: 16px;
     
 }
@@ -1005,6 +1014,12 @@ text-align: left;
 
 .footer__item{
   margin-bottom: 0px;
+  width: 23%;
+}
+  
+.footer__name {
+  font-size: 10px;
+  width: 45%;
 }
 }
 
