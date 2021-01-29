@@ -847,7 +847,7 @@ body{
   /*header*/
 
   .header__content-slogan {
-    margin-top: 40%;
+    margin-top: 30%;
     position: absolute;
     right: 10%;
   }
@@ -1168,6 +1168,10 @@ body{
 
 @media screen and (max-width: 575px){
   /*header*/
+  
+  .header__menu-mobile:hover + .header__content-slogan{
+    display:none;
+  }
 
   .header__star {
     width: 40%;
