@@ -956,6 +956,8 @@ text-align: left;
   
 .classes {
   display: block;
+  background-size: 80%;
+  background-position: top;
   }
 
 .classes__title {
