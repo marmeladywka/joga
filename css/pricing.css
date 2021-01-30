@@ -255,7 +255,7 @@ text-align: left;
 
 .pricing__item{
   padding:100px 0;
-  max-width: 243px;
+  width: 23%;
    
 }
 
@@ -660,17 +660,22 @@ margin-right: 8px;
 
 @media screen and (max-width: 770px){
   /*header*/
-  .header__content-slogan {
-    margin-top: 20%;
+.header__content-slogan {
+   margin-top: 20%;
   }
 
 .header__content-title {
-    font-size: 42px;
+  font-size: 42px;
 }
 
 .header__content-subtitle {
-    margin-top: 7px;
+  margin-top: 7px;
     }
+  
+.header__item-icon {
+  padding-top: 5%;
+  padding-left: 5%;
+}
 
 /*pricing*/
 
@@ -686,6 +691,23 @@ margin-right: 8px;
 
 .pricing__classes {
   margin-bottom: 20px;
+}
+  
+.pricing__btn {
+  width: 80%;
+  height: 20px;
+  }
+  
+.pricing__link {
+  font-size: 10px;
+  }
+  
+.pricing__classes-money {
+  font-size: 20px;
+}
+  
+.pricing__title {
+  font-size: 14px;
 }
 
 /*challenge*/
@@ -824,20 +846,22 @@ margin-right: 8px;
   }
 
 .header__content-slogan {
-    margin-top:15%;
-    left: 10%;
+  padding: 0 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
   }
 
 /*pricing*/
 
 .pricing__item {
-    padding: 30px 0;
-    max-width: 25%;
+  padding: 30px 0;
+  max-width: 25%;
 }
 
 .pricing__classes-money {
-    font-size: 20px;
-    margin-right: 3px;
+  font-size: 20px;
+  margin-right: 3px;
 }
 
 .pricing__classes-text {
