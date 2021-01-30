@@ -571,19 +571,22 @@ text-align: left;
 .classes__info {
     margin-bottom: 27px;
 }
-
+  
 .classes__link {
-  font-size: 16px;
-    
+  font-size: 14px;
 }
 
 .classes_name {
-    margin-top: 20px;
+    margin-top: 15px;
     height: 60px;
 }
 
 .classes__paragraph-advanced {
     margin-bottom: 12px;
+}
+  
+.header__star {
+    width: 80%;
 }
 
   /*footer*/
@@ -650,7 +653,7 @@ text-align: left;
   /*header*/
 
   .header__star {
-    width: 40%;
+    width: 70%;
   }
 
   .header__item-icon {
@@ -694,8 +697,9 @@ text-align: left;
     margin-top: 25%;
   }
 
-   /*classes*/
-  .classes__images {
+ /*classes*/
+  
+.classes__images {
     margin-top: -50px;
     margin-bottom: 15px;
 }
@@ -711,6 +715,11 @@ text-align: left;
 .classes__paragraph{
   display: none;
 }
+  
+.classes__link{
+  font-size: 10px;
+}
+  
 
 /*footer*/
 
