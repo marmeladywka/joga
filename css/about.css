@@ -1039,17 +1039,16 @@ text-align: left;
 
   /*footer*/
 
+.footer__menu {
+  width: 50%;
+  }
+
 .footer__icon {
-  padding-right: 5%;
-  width: 10%;
-}
-  
-.footer__image {
-    width: 100%;
+    padding-right: 20px;
 }
 
 .footer__info {
-    padding-left: 5%;
+    padding-left: 23px;
 }
 
 .footer__text {
@@ -1070,10 +1069,15 @@ text-align: left;
     width: 60px;
     font-size: 6px;
   }
+  
+.footer__maps{  
+  max-height: 100px;
+  }
+  
 
   .footer__maps-adress {
-    height: 120px;
-    max-width: 120px;
+    height: 100px;
+    
 }
 
 .footer__open,.footer__useful,
@@ -1085,14 +1089,13 @@ text-align: left;
 
 .footer__list,.footer__contact-info,
 .footer__week,.footer__time{
-  font-size:7px;
+  font-size:6px;
   line-height: 16px;
     
 }
 
 .footer__form{
   margin-top: 10px;
-  margin-left: 1%;
 }
 
 .footer__image-face,
@@ -1117,6 +1120,12 @@ text-align: left;
 
 .footer__item{
   margin-bottom: 0px;
+  width: 23%;
+}
+  
+.footer__name {
+  font-size: 10px;
+  width: 45%;
 }
 
 }
