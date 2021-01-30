@@ -964,7 +964,8 @@ text-align: left;
   
 .classes__foto{
   width: 50%;
-  max-height: 100px;
+  max-height: 200px;
+  min-height: 100px;
   position: relative;
   }
   
