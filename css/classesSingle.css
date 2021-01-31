@@ -740,8 +740,9 @@ text-align: left;
 }
 
 .classes_name {
-    margin-top: 15px;
-    font-size: 14px;
+  margin-top: 15px;
+  font-size: 14px;
+  height: 15%;
 }
 
 .classes__text {
