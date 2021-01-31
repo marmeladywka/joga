@@ -952,6 +952,10 @@ text-align: left;
   font-size: 34px;
 }
   
+.benefits__image{
+  width: 20%;
+}
+  
   /*footer*/
 
 .footer__menu {
