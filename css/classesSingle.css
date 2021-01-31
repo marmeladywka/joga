@@ -910,6 +910,35 @@ text-align: left;
 .classes__paragraph{
   display: none;
 }
+  
+.classes__title{
+  font-size: 30px;
+}
+  
+.classes__info{
+  display: block;
+}
+  
+.classes__item{
+  width: 100%;
+    display: flex;
+}
+  
+.classes__foto{
+  width: 50%;
+  max-height: 200px;
+  position: relative;
+}
+  
+.classes__foto-img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+} 
+
 
 /*class*/
 
