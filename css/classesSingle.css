@@ -922,7 +922,18 @@ text-align: left;
 }
 
 .class__image{
- padding-top: 5%;
+  padding-top: 5%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+  
+.class__foto {
+   width: 45%;
+   max-height: 200px;
+   position: relative;
 }
 
 /*benefits*/
