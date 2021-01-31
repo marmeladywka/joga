@@ -654,6 +654,10 @@ text-align: left;
     font-size: 15px;
     padding: 7px 27px;
 }
+  
+.classes_name{
+  height: 15%;
+  }
 
 /*class*/
 
@@ -742,7 +746,6 @@ text-align: left;
 .classes_name {
   margin-top: 15px;
   font-size: 14px;
-  height: 15%;
 }
 
 .classes__text {
