@@ -139,8 +139,8 @@ body{
 
 .header__item-icon{
 
-  padding-top: 35px;
-  padding-left: 56px;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 
 .header__star{
@@ -798,12 +798,19 @@ body{
 }
 
 .contact__input {
-    width: 100%;
+  width: 100%;
+  margin-right: 0;
     }
 
 .section__background {
-    background-size: 120%;
+    background-size: 140%;
     margin-top: -40%;
+    background-position: top;
+}
+  
+.contact__textarea {
+  font-size: 14px;
+  margin-right: 0;
   }
 
 .contact {
@@ -850,9 +857,22 @@ height: 150px;
     width: 100%;
     
 }
+  
+.contact__map{
+  width: 100%;
+  }
 
 .contact__info{
   justify-content: space-between;
+  
+}
+  
+.header__content-slogan {
+  margin-top: 25%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 10%;
 }
 
 /*footer*/
