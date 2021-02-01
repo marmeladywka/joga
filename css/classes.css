@@ -798,13 +798,13 @@ text-align: left;
   max-height: 53%;
 }
 
-.footer__sign {
-    margin-top: 5px;
+.footer__sign-img{
+  height: 100%;
 }
 
-.footer__item{
-  margin-bottom: 0px;
-  width: 23%;
+.footer__sign {
+  margin-top: 5px;
+  max-height: 150px;
 }
   
 .footer__name {
