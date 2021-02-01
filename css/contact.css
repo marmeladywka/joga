@@ -949,11 +949,12 @@ height: 150px;
 }
 
 .footer__sign-img{
-  max-height: 53%;
+  height: 100%;
 }
 
 .footer__sign {
-    margin-top: 5px;
+  margin-top: 5px;
+  max-height: 150px;
 }
 
 .footer__item{
