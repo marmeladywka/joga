@@ -907,10 +907,6 @@ text-align: left;
 
   /*classes*/
 
-.classes__item {
-    max-width: 23%;
-}
-
 .classes__paragraph{
   display: none;
 }
@@ -925,7 +921,7 @@ text-align: left;
   
 .classes__item{
   width: 100%;
-    display: flex;
+  display: flex;
 }
   
 .classes__foto{
