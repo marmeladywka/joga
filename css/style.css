@@ -1516,6 +1516,12 @@ margin-top:10px;
   width: 23%;
 }
   
+.footer__info-work {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  }
+  
 .footer__name {
   font-size: 10px;
   width: 45%;
