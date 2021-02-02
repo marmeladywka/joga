@@ -881,6 +881,10 @@ text-align: left;
 .footer__image-pinterest{
  width:80%;
 }
+  
+.footer__item {
+    width: 23%;
+}
 
 }
 
