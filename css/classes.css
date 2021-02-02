@@ -647,6 +647,10 @@ text-align: left;
 .footer__image-pinterest{
  width:80%;
 }
+  
+.footer__item {
+    width: 23%;
+}
 }
 
 @media screen and (max-width: 575px){
