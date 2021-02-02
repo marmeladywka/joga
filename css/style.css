@@ -1509,21 +1509,12 @@ margin-top:10px;
   margin-top: 5px;
   max-height: 200px;
   position: relative;
+  padding: 0 3%;
 }
   
 .footer__info-work {
   width: 100%;
-  }
-  
-.footer__week,
-.footer__time{
-  width: 30%;
-}
-  
-.footer__sign{
-  width: 20%;
-}
-  
+  }  
   
 .footer__item{
   margin-bottom: 0px;
