@@ -1516,6 +1516,16 @@ margin-top:10px;
   width: 100%;
   }
   
+.footer__week,
+.footer__time{
+  width: 30%;
+}
+  
+.footer__sign{
+  width: 20%;
+}
+  
+  
 .footer__item{
   margin-bottom: 0px;
   width: 23%;
