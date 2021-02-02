@@ -1510,17 +1510,23 @@ margin-top:10px;
   max-height: 200px;
   position: relative;
 }
-
-.footer__item{
-  margin-bottom: 0px;
-  width: 23%;
-}
   
 .footer__info-work {
   display: flex;
   justify-content: space-between;
   width: 100%;
   }
+  
+.footer__week,
+.footer__sign,
+.footer__time{
+  width: 30%;
+  }
+
+.footer__item{
+  margin-bottom: 0px;
+  width: 23%;
+}
   
 .footer__name {
   font-size: 10px;
