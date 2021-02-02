@@ -1509,6 +1509,7 @@ margin-top:10px;
   margin-top: 5px;
   max-height: 200px;
   position: relative;
+  padding: 0 2%;
 }
   
 .footer__info-work {
@@ -1517,12 +1518,6 @@ margin-top:10px;
   width: 100%;
   }
   
-.footer__week,
-.footer__sign,
-.footer__time{
-  width: 30%;
-  }
-
 .footer__item{
   margin-bottom: 0px;
   width: 23%;
