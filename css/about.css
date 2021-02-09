@@ -940,7 +940,7 @@ text-align: left;
     left: 20%;
   }
   
-.header__menu-mobile + .header__content-slogan {
+.header__menu-mobile:hover + .header__content-slogan {
   display: none;
   }
 
