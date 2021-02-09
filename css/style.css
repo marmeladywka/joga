@@ -848,8 +848,6 @@ body{
 
   .header__content-slogan {
     margin-top: 30%;
-    position: absolute;
-    right: 10%;
   }
 
   /*about*/
@@ -975,9 +973,12 @@ body{
   }
 
   .header__content-slogan {
-    margin-top: 45%;
-    position: absolute;
+    margin-top: 35%;
     right: 5%;
+  }
+  
+  .header__slogan {
+    font-size: 40px;
   }
 
   /*about*/
