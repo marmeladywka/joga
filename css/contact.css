@@ -744,6 +744,10 @@ body{
 
 @media screen and (max-width: 575px){
   /*header*/
+  
+  .header__fond {
+    width: 150%;
+}
 
   .header__star {
     width: 40%;
@@ -774,10 +778,6 @@ body{
   font-size: 40px;
 }
 
-.header__menu-mobile:hover + .header__content-slogan {
-  display: none;
-}
-
 .header__mibile-img{
   width: 10%;
 }
@@ -787,8 +787,7 @@ body{
   }
 
 .header__content-slogan {
-    margin-top:20%;
-    left: 10%;
+   display: none;
   }
 
   /*contact*/
