@@ -124,7 +124,7 @@ body{
 .header__fond{
 
   background: url(../images/header/Image.png) 0 0/ cover no-repeat ;
-  height:100vh;
+  height:860px;
   background-position: center center;
 
 }
@@ -840,14 +840,23 @@ body{
   .teacher {
     padding: 80px 0;
 }
+  
+.header__fond {
+    height: 760px;
+}
 }
 
 @media screen and (max-width: 990px){
   
   /*header*/
+  
+  .header__fond {
+    height: 660px;
+}
 
   .header__content-slogan {
-    margin-top: 30%;
+   margin-top: 25%;
+    right: 10%;
   }
 
   /*about*/
@@ -962,6 +971,10 @@ body{
 
 @media screen and (max-width: 770px){
   /*header*/
+  
+  .header__fond {
+    height: 360px;
+}
 
   .header__item-icon {
     padding-top: 15px;
@@ -973,12 +986,13 @@ body{
   }
 
   .header__content-slogan {
-    margin-top: 35%;
+    margin-top: 15%;
     right: 5%;
   }
   
   .header__slogan {
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 50px;
   }
 
   /*about*/
