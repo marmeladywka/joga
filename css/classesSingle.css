@@ -862,6 +862,10 @@ text-align: left;
 @media screen and (max-width: 575px){
 
    /*header*/
+  
+  .header__fond {
+    width: 150%;
+}
 
   .header__star {
     width: 40%;
@@ -890,11 +894,7 @@ text-align: left;
 
 .header__mobile-link{
   font-size: 40px;
-}
-
-.header__menu-mobile:hover + .header__content-slogan {
-  display: none;
-}
+  }
 
 .header__mibile-img{
   width: 10%;
@@ -905,8 +905,7 @@ text-align: left;
   }
 
 .header__content-slogan {
-    margin-top:30%;
-    left: 10%;
+    display: none;
   }
 
   /*classes*/
