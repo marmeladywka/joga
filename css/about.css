@@ -892,7 +892,9 @@ text-align: left;
   /*header*/
   
   .header__fond {
-    width: 150%;
+    width: 100%;
+    max-height: 400px;
+    background-position: center center;
 }
 
   .header__star {
@@ -933,7 +935,13 @@ text-align: left;
   }
 
 .header__content-slogan {
-    display: none;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+  }
+  
+.header__menu-mobile + .header__content-slogan {
+  display: none;
   }
 
 /*about*/
